@@ -2,21 +2,23 @@ package com.bridgelabz.generics;
 
 public class Maximum {
 	public static void main(String[] args) {
-		Integer a = 2;
-		Integer b = 4;
-		Integer c = 6;
-		findMaximum(a, b, c);
-	}
+		
+				Float x = 2.5f;
+				Float y = 8.6f;
+				Float z = 7.9f;
+				findMaximum(x,y,z);
 
-	private static void findMaximum(Integer a, Integer b, Integer c) {
-		Integer max = a;
-		if (b.compareTo(a) > 0) {
-			max = b;
-		}
-		if (c.compareTo(max) > 0) { 
-			max = c;
-		}
-		System.out.println("Maximum of numbers are " + max);
-	}
+			}
+
+			 private static void findMaximum(Float x, Float y, Float z) {
+				Float max = x;
+				if (y.compareTo(x)>0) {
+					max = y;
+			}
+				if (z.compareTo(max)>0) {
+					max = z;
+			}
+			 System.out.println("Maximum of numbers are " +max);
 
 }
+			 }
